@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Template/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Roll-a-Ball/Scenes/Roll-a-Ball.unity
+    path: Assets/1. Roll-a-Ball/Scenes/Roll-a-Ball.unity
     guid: 62b51b3e03211930ea52d81cb9015567
   m_configObjects: {}
