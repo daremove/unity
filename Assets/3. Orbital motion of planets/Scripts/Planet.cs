@@ -13,7 +13,6 @@ public class Planet : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.velocity = startSpeed;
-        Debug.Log(_rigidbody);
     }
 
     private void Update()
