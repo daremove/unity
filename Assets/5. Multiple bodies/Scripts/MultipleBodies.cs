@@ -28,13 +28,13 @@ public class MultipleBodies : MonoBehaviour
         {
             GameObject obj = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 
-            obj.transform.position = new Vector3(1 + Random.value * 50, 0, 1 + Random.value * 50);
+            obj.transform.position = new Vector3(1 + Random.value * 40, 0, 1 + Random.value * 40);
             obj.AddComponent<Rigidbody>();
             
             Rigidbody rb = obj.GetComponent<Rigidbody>();
 
             rb.useGravity = false;
-            rb.AddForce(8, 2, 0, ForceMode.Impulse);
+            rb.AddForce(5, 2, 0, ForceMode.Impulse);
             rb.mass = 1 + Random.value * 10;
             _objects.Add(rb);
         }
